@@ -10,4 +10,4 @@
 5.浏览器输入：http://localhost/index.php 即可进入网站首页;  
   
 下面将会展示网站部分页面：  
-![image](https://github.com/ALitterGirlZX/music-php-mysql/master/READMEIMG/网站展示图/4T3`PLB%%NUWCAQ~QD}%SOP.png)
+![image](https://github.com/ALitterGirlZX/music-php-mysql/master/tree/READMEIMG/网站展示图/4T3`PLB%%NUWCAQ~QD}%SOP.png)
