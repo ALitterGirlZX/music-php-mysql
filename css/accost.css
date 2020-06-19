@@ -1,0 +1,420 @@
+/**
+ * 搭讪页面
+ * 
+ * */
+#accosttype{
+	width: 100%;
+	min-width: 1400px;
+	height: 100px;
+	background:#EEEEEE;
+}
+#accosttypebox{
+	width: 70%;
+	height: 100px;
+	margin: 0 auto;
+}
+#accosttypebox>ul{
+	width: 100%;
+	height: 100%;
+}
+#accosttypebox>ul>li{
+	float: left;
+	width: 140px;
+	height: 100px;
+}
+.typename{
+	width:120px;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+	color:#999999;
+}
+.typename>b{
+	background:url(../img/icon/nav_sprite.png) no-repeat;
+	display: inline-block;
+    width: 36px;
+    height: 36px;
+    vertical-align:middle;
+}
+.topictype>b{
+	background-position: -0px -36px;
+}
+.topictype{
+	color: #5ECFBA;
+}
+.findtype>b{
+	background-position: -41px 0px;
+}
+.typename>span{
+	padding-left:10px;
+}
+.typename:hover{
+	text-decoration: none;
+	color:#5ECFBA;
+}
+.findtype:hover b{
+	background-position: -41px -36px;
+}
+.typename:hover i{
+	background: #5ECFBA;
+	display: block;
+    bottom: 0px;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    font-size: 0;
+}
+.typename:hover i>em{
+	border-color: transparent transparent #5ECFBA;
+    border-style: none solid solid;
+    border-width: 0 6px 6px;
+    bottom: 2px;
+    display: block;
+    left: 50%;
+    margin-left: -3px;
+    position: absolute;
+}
+.topictype>i{
+	background: #5ECFBA;
+	display: block;
+    bottom: 0px;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    font-size: 0;
+    transition: all 0.2s ease-in-out;
+}
+.topictype>i>em{
+	border-color: transparent transparent #5ECFBA;
+    border-style: none solid solid;
+    border-width: 0 6px 6px;
+    bottom: 2px;
+    display: block;
+    left: 50%;
+    margin-left: -3px;
+    position: absolute;
+}
+/**
+ * 发布话题框
+ * */
+#topicpublish{
+	width: 100%;
+	height:auto;
+	min-width: 1400px;
+	position: relative;
+}
+#publishbox{
+	width: 70%;
+	height: 200px;
+	margin: 0 auto;
+}
+#publishbox>p:first-of-type{
+	margin-top: 30px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 60px;
+	color:#1ABC9C;
+}
+.psecondline{
+	line-height: 50px;
+	height: 50px;
+	font-size: 26px;
+	color:#5ECFBA;
+}
+.psecondline>span{
+	font-size: 16px;
+	color:#6b6767;
+	margin-left: 10px;
+}
+.psecondline>em{
+	font-size: 20px;
+	color:#1ABC9C;
+}
+.topicbtn{
+	width: 200px;
+	height: 40px;
+	line-height: 30px;
+	background:#1ABC9C;
+	color: white;
+	font-size: 25px;
+	font-weight: 800;
+	float: right;
+	border: 0px;
+}
+.topicbtn:hover{
+	background:#5ECFBA;
+}
+/**
+ * 发布话题
+ * */
+#publishtopic{
+	width:70%;
+	height:auto;
+	margin:0 auto;
+	background:orange;
+	display: none;
+}
+#publishtip{
+	height:30px;
+	line-height: 30px;
+	background: yellow;
+	font-size: 20px;
+}
+#publishtip>em{
+	width:27px;
+	height:27px;
+	display: inline-block;
+	float: right;
+	background: url(../img/icon/close.png) no-repeat;
+	cursor: pointer;
+}
+#publishtitle{
+	text-align: center;
+	height:60px;
+	line-height: 60px;
+	margin-top: 20px;
+}
+#publishtitle>input{
+	height: 40px;
+	width: 70%;
+	font-size: 20px;
+	text-indent: 20px;
+	vertical-align: top;
+}
+#publishthumb{
+	width: 70%;
+	margin: 0 auto;
+	height:180px;
+	position: relative;
+}
+#thumb_url{
+	width: 30%;
+	height: 150px;
+	margin-top: 30px;
+}
+#publishimage{
+	position: absolute;
+	height: 150px;
+	width: 30%;
+	left: 0;
+	top:30px;
+	background: white;
+	opacity: 0.5;
+	color:black;
+	font-size:20px ;
+}
+#publishcontentbox{
+	height:300px;
+}
+#topiccontent{
+	width: 70%;
+	height: 300px;
+	vertical-align: middle;
+	background:orange ;
+	margin: 0 auto;
+}
+#publishcontent{
+	width: 100%;
+	height: 300px;
+}
+#publishsubmit{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#publishsubmit>button{
+	height: 30px;
+	width: 30%;
+	font-size: 26px;
+	letter-spacing: 20px;
+	text-indent: 20px;
+}
+/**
+ * 发布话题最新最热
+ * */
+#topicbigbox{
+	width: 100%;
+	height: auto;
+	min-width: 1400px;
+	margin-top: 10px;
+}
+#topicbox{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	background: #EEEEEE;
+}
+#topictype{
+	height: 100px;
+	line-height: 100px;
+}
+.topictitle{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	background: #1ABC9C;
+	color:#fff;
+	text-align: center;
+	font-size: 20px;
+}
+.tophots{
+	background: transparent;
+	margin-left: 10px;
+}
+.tophots:hover{
+	background: #1ABC9C;
+}
+.topmine{
+	float: right;
+	margin-right: 10px;
+}
+#topiclist{
+	width: 100%;
+	height: auto;
+}
+#topiclist>li{
+	height: 150px;
+	border-top: 1px solid white;
+	overflow: hidden;
+}
+#topiclist>li>a{
+	display: block;
+	width: 100%;
+	height: 150px;
+	margin:0 auto;
+	position: relative;
+	color:black;
+}
+#topiclist>li>a:hover .viewdetail{
+	display: block;
+}
+#topiclist>li>a:hover .topic{
+	background: #FFDDAA;
+	color:#00AAAA;
+}
+.viewdetail{
+	width: 15%;
+	height: 150px;
+	background: #DDDDDD;
+	color:#F25416;
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 150px;
+	text-align: center;
+	font-size: 20px;
+	display: none;
+}
+.topic{
+	width: 85%;
+	height: 150px;
+	float: left;
+}
+.topicview{
+	width: 15%;
+	height: 150px;
+	float: right;
+}
+.topicview>p{
+	width: 100%;
+	height: 60px;
+	line-height: 30px;
+	margin-top: 45px;
+	color:white;
+	text-align: center;
+}
+.topicimg{
+	width:15%;
+	height: 120px;
+	float: left;
+	line-height: 120px;
+	text-align: center;
+	margin-top: 15px;
+}
+.topicimg>img{
+	width: 80%;
+	height: 120px;
+}
+.topiccontent{
+	width:85%;
+	height:120px;
+	margin-top: 15px;
+	border-right: 1px solid white;
+	box-sizing: border-box;
+	float: right;
+}
+.topiccontent>h3{
+	height: 30px;
+	line-height: 30px;
+}
+.topiccontent>p{
+	height: 90px;
+	line-height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/***
+ *分页样式 
+ */
+.pagestyles{
+	width:100%;
+	height:50px;
+	border-top: 1px solid white;
+}
+.pagestyles>p{
+	width: 50%;
+	height: 50px;
+	float: right;
+	line-height: 50px;
+}
+.pagestyles>p>span{
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	color: #1ABC9C;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-left: 5px;
+	background: #FFFFFF;
+}
+.pagestyles>p>em{
+	width: 60px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background: #1ABC9C;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.pagestyles>p>span:hover{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: white;
+	color: black;
+	border: none;
+}
+.pagestyles>p>em:hover{
+	background: white;
+	color: black;
+}
+
+/**
+ * 招蝶页面
+ * */
+
+

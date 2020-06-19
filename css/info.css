@@ -1,0 +1,274 @@
+body{
+	background: #FFFFFF;
+}
+.info{
+	width: 80%;
+	margin: 0 auto;
+	height: 1000px;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	min-width: 1200px;
+}
+.info_left{
+	width: 20%;
+	height: auto;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+.info_right{
+	width: 77%;
+	height: 100%;
+	float: right;
+	/* border: 1px solid #CCCCCC; */
+}
+.info_left ul li{
+	list-style: none;
+	float: left;
+	border-bottom: 1px solid #CCCCCC;
+	width: 100%;
+	height: 50px;
+	background: #EEEEEE;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #033045;
+}
+.info_left ul li:first-child{
+	height: 250px;
+	background: #FFFFFF;
+}
+.info_left ul li:last-child{
+	border-bottom: 0px;
+}
+.user_img{
+	border: 1px solid #EEEEEE;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	margin-left: -75px;
+	left: 50%;
+	border-radius: 100px;
+	margin-top: 20px;
+	background: url(../images/cover/tou1.jpg) no-repeat;
+	background-size: 100%;
+}
+.s1{
+	display: block;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	color: #008855;
+	font-size: 14px;
+}
+.info_right div{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #CCCCCC;
+	display: none;
+}
+.info_left ul li:hover{
+	background:#1ABC9C;
+	color: #FFFFFF;
+}
+.info_left ul li:first-child:hover{
+	background:#FFFFFF;
+}
+.s2{
+	font-size: 16px;
+	color: #033045;
+}
+.active{
+	background:#1ABC9C!important;
+	color: #FFFFFF!important;
+}
+.active1{
+	display: block!important;
+}
+.info_right .a1 ul{
+	width: 60%;
+	height: 60%;
+	margin: 50px auto;
+}
+.info_right .a1 li{
+	height: 70px;
+	line-height: 70px;
+	font-size: 14px;
+}
+.info_right span{
+	margin-left: 80px;
+}
+.info_right input{
+	margin-left: 40px;
+	color: #1ABC9C;
+}
+.niko{
+	width: 250px;
+	height: 30px;
+	margin-left: 40px;
+	text-align: center;
+	color: #1ABC9C;
+}
+#lPassword{
+	width: 250px;
+	height: 30px;
+	margin-left: 40px;
+	text-align: center;
+	color: #1ABC9C;
+}
+#togglePassword{
+	width: 80px;
+	height: 30px;
+	margin-left: 0px;
+}
+#togglePassword img{
+	width: 20px;
+	height: 15px;
+}
+.info_right button{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	margin-left:110px;
+	margin-top: 80px;
+}
+.a3 ul{
+	margin-top: 20px;
+	height: 50px;
+}
+.a3 li:first-child{
+	margin-top: -2px;
+}
+.a3 li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+.a3 b{
+	color: #31c27c;
+}
+.a3 table{
+	margin: 30px auto;
+	width: 920px;
+	height: 700px;
+}
+.a3 table tr th:first-child{
+	width: 400px;
+}
+.th th{
+	text-align: center;
+}
+.songlist tbody tr:nth-child(odd){
+	background: #E6E6E6;
+}
+.songlist tbody tr td:nth-child(2){
+	font-size: 12px;
+	text-align: center;
+}
+.songlist tbody tr td:nth-child(3){
+	font-size: 12px;
+	text-align: center;
+}
+.songlist tbody tr td:nth-child(4){
+	font-size: 12px;
+	text-align: center;
+}
+.songlist tbody tr td:nth-child(1){
+	display: block;
+	margin-left: 15px;
+	height: 30px;
+	line-height: 30px;
+	color: #5ECFBA;
+}
+.songlist tbody tr td:nth-child(1):hover{
+	cursor: pointer;
+}
+
+.a2 ul{
+	margin-top: 20px;
+	height: 50px;
+}
+.a2 li:first-child{
+	margin-top: -2px;
+}
+.a2 li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+.a2 b{
+	color: #31c27c;
+}
+.a2 table{
+	margin: 30px auto;
+	width: 920px;
+	height: 700px;
+}
+.a2 table tr th:first-child{
+	width: 400px;
+}
+
+.a4 ul{
+	margin-top: 20px;
+	height: 50px;
+}
+.a4 li:first-child{
+	margin-top: -2px;
+}
+.a4 li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+.a44 b{
+	color: #31c27c;
+}
+.a4 table{
+	margin: 30px auto;
+	width: 920px;
+	height: 700px;
+}
+.a4 table tr th:first-child{
+	width: 400px;
+}
+
+.pagelist li{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	float: right;
+	text-align: center;
+	line-height: 30px;
+	color: #A2A2A2;
+}
+.pageActive{
+	background: #31C27C;
+	color: #FFFFFF!important;
+	border: 1px solid #31C27C;
+}
+.pagelist li:hover{
+	background: #31C27C;
+	color: #FFFFFF!important;
+	border: 1px solid #31C27C;
+	cursor: pointer;
+}
+.peizhi li:hover{
+	cursor: pointer;
+}
+.a1:hover{
+	cursor: pointer;
+}
+.a2:hover{
+	cursor: pointer;
+}
+.a3:hover{
+	cursor: pointer;
+}
+.a2 .songlist img{
+	width: 82px;
+	height: 82px;
+	margin-right: 80px;
+}
+.peizhi img{
+	width: 125px;
+	height: 40px;
+}
