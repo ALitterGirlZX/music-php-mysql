@@ -1,0 +1,222 @@
+.lyric{
+	width: 1300px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.lyricoder{
+	border: 1px solid #EEEEEE;
+}
+.lyricdetail{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.lyricoder{
+	width: 25%;
+	height: 600px;
+	float: right;
+}
+.Btn {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 50%;
+	left: 50%;
+	margin-left: -40px;
+	margin-top: -40px;
+	background-color: yellow;
+	background: url(../images/btn-bg.png) no-repeat;
+	background-size: 80px 80px;
+	animation: Btn-bg 3s linear infinite;
+}
+
+.Play {
+	position: absolute;
+	width: 26px;
+	height: 34px;
+	top: 50%;
+	left: 50%;
+	margin-left: -13px;
+	margin-top: -17px;
+	background: red;
+	background: url(../images/pause.png) no-repeat;
+	transition: .5s;
+}
+
+.btns-bg {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: 180px 180px;
+	position: relative;
+	background-size: 250px 250px;
+	left: 50px;
+}
+
+@keyframes Btn-bg {
+	from {}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.musicInfo{
+	float: right;
+	width: 60%;
+	height: 250px;
+	margin-top: -250px;
+}
+.musicInfo ul:nth-child(2){
+	margin-top: 30px;
+}
+.musicInfo ul:nth-child(2) li{
+	border: 1px solid #c9c9c9;
+	float: left;
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+.musicInfo ul:nth-child(2) img{
+	margin-top: -5px;
+}
+.lyricContent{
+	width: 1300px;
+	height: auto;
+	margin: 0 auto;
+	line-height: 20px;
+	margin-top: -250px;
+}
+#input {position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+.musicInfo img:hover{
+	cursor: pointer;
+}
+#text{
+	margin-left: 100px;
+}
+.lyricdetail h4{
+	margin-left: 100px;
+}
+.lyricoder h4{
+	text-align: center;
+}
+.lyricoder li{
+	width: 100%;
+	height: 110px;
+	line-height: 110px;
+}
+.lyricoder img{
+	width: 95px;
+	height: 95px;
+	float: left;
+	margin-left: 20px;
+}
+.lyricoder p{
+	height: 30px;
+	line-height: 50px;
+}
+.lyricoder a{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+.lyricoder div{
+	float: right;
+	width: 200px;
+	height: 100%;
+}
+.copy:hover{
+	cursor: pointer;
+}
+
+.lyricComment{
+	width: 1300px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 5%;
+}
+.owenRcommed{
+	/* border: 1px solid #000000; */
+	width: 860px;
+	margin-top: 30px;
+}
+.owenRcommed textarea{
+	width: 860px;
+	height: 120px;
+	background: #F5F5F5;
+	border: 1px solid #F5F5F5;
+	color: #999999;
+}
+.text-right button{
+	width: 80px;
+	height: 30px;
+	background: #31c27c;
+	border: 0px;
+	color: #FFFFFF;
+}
+.lyricComment .owentext{
+	margin-top: 50px;
+}
+.lyricComment .owentext li{
+	width: 860px;
+	min-height: 180px;
+	border-bottom: 1px solid #cccc;
+	margin-bottom: 10px;
+}
+.commentLeft img{
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	line-height: 150px;
+	margin: 30px 20px 0px 20px;
+	border: 1px solid #CCCCCC;
+}
+.commentLeft{
+	width: 14%;
+	float: left;
+	height: 100%;
+}
+.commentRight{
+	width: 85%;
+	float: right;
+	height: 60%;
+	margin-top: 3%;
+}
+.commentRight p:first-child{
+	color: #999999;
+}
+.commentRight p:nth-last-child(1){
+	color: #999999;
+}
+.owenum{
+	width: 860px;
+	height: 80px;
+}
+.owenum li{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	float: right;
+	margin:30px 0px 0px 5px;
+	text-align: center;
+	line-height: 30px;
+	color: #A2A2A2;
+}
+.owenum li:hover{
+	background: #31C27C;
+	color: #FFFFFF;
+	border: 1px solid #31C27C;
+}
+.owenum .active{
+	background: #31C27C;
+	color: #FFFFFF;
+	border: 1px solid #31C27C;
+}
+.playmo .active{
+	background: #31c27c;
+	border: 1px solid #31c27c;
+}

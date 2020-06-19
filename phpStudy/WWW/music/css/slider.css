@@ -1,0 +1,164 @@
+.w1200 {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.pa {
+	position: absolute;
+}
+
+.swiper-banner {
+	width: 100%;
+	height: 620px;
+}
+
+.swiper-banner .swiper-slide {
+	width: 100%;
+	height: 620px;
+	color: #fff;
+	display: block;
+}
+
+.swiper-banner .swiper-slide .wrap {
+	height: 520px;
+}
+
+.swiper-banner .swiper-slide .sl-left {
+	top: 170px;
+	left: 40px;
+	width: 100%;
+}
+
+.swiper-banner .swiper-slide .t1 {
+	top: 0px;
+	left: 0px;
+	font-size: 26px;
+}
+
+.swiper-banner .swiper-slide .t2 {
+	top: 50px;
+	left: 0px;
+	font-size: 40px;
+}
+
+.swiper-banner .swiper-slide .t3 {
+	top: 110px;
+	left: 00px;
+	font-size: 18px;
+}
+
+.swiper-banner .swiper-slide .btn {
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	left: 00px;
+	top: 160px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.swiper-banner .swiper-slide .img1 {
+	top: 110px;
+	left: 490px;
+}
+
+.swiper-banner .swiper-slide .img2 {
+	top: 0px;
+	left: 700px;
+}
+
+.swiper-banner .swiper-slide .img3 {
+	top: 100px;
+	left: 650px;
+}
+
+.swiper-banner .swiper-slide.slide5 {
+	background: url(../images/lunbo1.jpg) no-repeat center top #070E2A;
+}
+
+.swiper-banner .swiper-slide.slide2 {
+	background: url(../images/lunbo4.jpg) no-repeat center top #1A0844;
+}
+
+.swiper-banner .swiper-slide.slide3 {
+	background: url(../images/lunbo5.jpg) no-repeat center top #23262b;
+}
+
+.swiper-banner .swiper-slide.slide4 {
+	background: url(../images/lunbo2.jpg) no-repeat center top #23262b;
+}
+
+.swiper-banner .swiper-slide.slide1 {
+	background: url(../images/lunbo3.jpg) no-repeat center top #033045;
+}
+
+.swiper-banner .swiper-pagination {
+	bottom: 130px!important;
+}
+
+.swiper-banner .swiper-pagination .swiper-pagination-bullet {
+	width: 40px;
+	height: 5px;
+	border-radius: 0;
+}
+
+.swiper-banner .swiper-nav {
+	width: 100%;
+	height: 100px;
+	background: rgba(233, 233, 233, 0.05);
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+
+.swiper-banner .swiper-nav li {
+	color: #fff;
+	width: 239px;
+	height: 100px;
+	border-right: 1px solid rgba(233, 233, 233, 0.05);
+	float: left;
+	cursor: pointer;
+}
+
+.swiper-banner .swiper-nav li .icon {
+	width: 65px;
+	height: 100px;
+	display: flex;
+	float: left;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-banner .swiper-nav li .info {
+	float: left;
+	width: 174px;
+	height: 100px;
+}
+
+.swiper-banner .swiper-nav li .info div {
+	padding-top: 30px;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+.swiper-banner .swiper-nav li .info p {
+	color: #c3c3c3;
+	font-size: 14px;
+}
+
+.swiper-banner .swiper-nav li.active {
+	background: rgba(233, 233, 233, 0.05);
+}
+
+.swiper-banner .swiper-nav li:nth-child(5) {
+	border-right: none;
+}
+.swiper-wrapper{
+	top: 80px;
+}
+.swiper-banner{
+	background: #070E2A;
+}

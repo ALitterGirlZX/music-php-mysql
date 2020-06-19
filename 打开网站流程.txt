@@ -1,0 +1,5 @@
+1.开启动态网站需要打开服务；
+2.安装phpstudy和Navicat for MySQL；
+3.安装成功后启动phpstudy；
+4.打开Navicat for MySQL，新建数据库music，导入sql文件夹里所有的sql文件；
+5.打开浏览器，http://localhost/music/index.php 进入网站；
