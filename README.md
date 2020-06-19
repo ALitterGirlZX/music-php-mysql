@@ -7,4 +7,7 @@
 2.安装成功后选择启动phpstudy,然后单击'mysql管理器'按钮,在弹出的下拉框中点击'phpmyasmin'选型;  
 3.在弹出的对话框中输入“用户名”及“密码”，这里默认都是'root'，然后点击'执行'按钮;  
 4.安装完成Navicat for MySQL,打开连接新建数据库music，新建sql文件夹里的表格,导入sql文件;  
-5.浏览器输入：http://localhost/index.php 即可进入网站首页;
+5.浏览器输入：http://localhost/index.php 即可进入网站首页;  
+  
+下面将会展示网站部分页面：  
+![image](https://github.com/ALitterGirlZX/music-php-mysql/master/READMEIMG/网站展示图/4T3`PLB%%NUWCAQ~QD}%SOP.png)
